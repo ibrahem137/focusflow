@@ -1,0 +1,42 @@
+﻿{
+    "verification_version":  2,
+    "verified_at":  "2026-10-03T20:22:10+03:00",
+    "release":  {
+                    "app_name":  "FocusFlow",
+                    "version":  "1.0.0+1",
+                    "application_id":  "com.ibrahemalhuossien.focusflow",
+                    "aab_size_mb":  52.11,
+                    "aab_sha256":  "2b542d7e224e249033466e24af7d89aead12561bf5820d35a8d4de5961c0aa36"
+                },
+    "validation":  {
+                       "format":  "PASS: 58 files checked, 0 changed",
+                       "analyze":  "PASS: no issues found",
+                       "tests":  "PASS: 248 tests passed",
+                       "release_build":  "PASS: app-release.aab built successfully"
+                   },
+    "source_snapshot":  {
+                            "eligible_files":  278,
+                            "sha256_manifest":  "source_sha256.json",
+                            "signing_properties_included":  false,
+                            "signing_template_included":  true
+                        },
+    "privacy":  {
+                    "allow_backup":  false,
+                    "legacy_backup_exclusions":  9,
+                    "cloud_backup_exclusions":  9,
+                    "device_transfer_exclusions":  9,
+                    "sensitive_permission_scan":  "PASS: no INTERNET, camera, microphone, location, contacts, media/storage, AD_ID or exact-alarm permissions in release manifest"
+                },
+    "release_permissions":  [
+                                "android.permission.POST_NOTIFICATIONS",
+                                "android.permission.RECEIVE_BOOT_COMPLETED",
+                                "com.ibrahemalhuossien.focusflow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                            ],
+    "signing":  {
+                    "verified":  true,
+                    "certificate_sha256":  "77:B8:66:16:A9:E8:18:26:DE:DF:75:92:D3:5E:5D:05:35:1F:BB:8C:91:6A:33:17:6C:AE:82:10:D9:F9:6B:F1",
+                    "signature_algorithm":  "SHA384withRSA",
+                    "public_key":  "2048-bit RSA",
+                    "certificate_valid_until":  "2054-02-14"
+                }
+}

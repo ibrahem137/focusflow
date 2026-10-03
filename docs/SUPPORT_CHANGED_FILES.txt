@@ -1,0 +1,33 @@
+Compared with focus_flow_reviewed.zip (version 1).
+Build/cache artifacts excluded.
+
+MODIFIED CHANGELOG.md
+MODIFIED README.md
+ADDED    docs/SUPPORT_CHANGED_FILES.txt
+ADDED    docs/SUPPORT_FEEDBACK.md
+ADDED    docs/support-validation-logs/all_tests.log
+ADDED    docs/support-validation-logs/analyze.log
+ADDED    docs/support-validation-logs/android_build_final.log
+ADDED    docs/support-validation-logs/captures.log
+ADDED    docs/support-validation-logs/format_check.log
+ADDED    docs/support-validation-logs/pub_get.log
+MODIFIED ios/Runner/GeneratedPluginRegistrant.m
+ADDED    lib/core/constants/support_config.dart
+ADDED    lib/core/services/support_email_service.dart
+MODIFIED lib/features/settings/ui/settings_screen.dart
+ADDED    lib/features/settings/ui/support_screen.dart
+MODIFIED linux/flutter/generated_plugin_registrant.cc
+MODIFIED linux/flutter/generated_plugins.cmake
+MODIFIED macos/Flutter/GeneratedPluginRegistrant.swift
+MODIFIED pubspec.lock
+MODIFIED pubspec.yaml
+ADDED    test/features/settings/goldens/contact_dark.png
+ADDED    test/features/settings/goldens/contact_light.png
+ADDED    test/features/settings/goldens/feedback_dark.png
+ADDED    test/features/settings/goldens/feedback_light.png
+ADDED    test/features/settings/goldens/problem_dark.png
+ADDED    test/features/settings/goldens/problem_light.png
+ADDED    test/features/settings/support_email_service_test.dart
+ADDED    test/features/settings/support_screen_test.dart
+MODIFIED windows/flutter/generated_plugin_registrant.cc
+MODIFIED windows/flutter/generated_plugins.cmake
